@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Sacramento&display=swap');
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background: url("https://cdn.shopify.com/s/files/1/0285/1316/products/m1906_1s_White-Washed-Brick-Wall-Mural-WallsNeedLove_Mural-Pattern-NEW.jpg?v=1624988616") center / cover ;
+    font-family: 'Montserrat', sans-serif;
+    position: relative; 
+}
+.nav{
+    width: 5%;
+    height: 100vh;
+    background-color: white;
+}
+
+.nav ul{
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav ul li{
+    transform: rotate(270deg);
+    padding: 65px 10px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px black;
+}
+.nav ul a:hover{
+    text-shadow: 0px 0px 10px purple , 0px 0px 25px purple, 0px 0px 50px purple;
+    text-decoration: underline;
+}
+
+/* .Header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Img_Block_Port{
+    margin-left: 20%;
+    width: 40%;
+}
+.Img_Block_Port img{
+    width: 100%;
+    height: 100vh;
+}
+
+.Portfolio{
+    display: flex;
+}
+
+.Text_Block_Port{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Text_Block_Port p{
+    cursor: pointer;
+}
+
+.Text_Block_Port a{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.Text_Block_Port div p{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.Text_Block_Port div span{
+    color: rgb(206, 134, 0);
+    font-size: 20px;
+}
+.Text_Block_Port div h6{
+    cursor: pointer;
+} */
+
+.Header{
+    display: flex;
+}
+header nav{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    writing-mode: vertical-rl;
+    /* writing-mode: horizontal-tb; */
+    transform: rotate(-180deg);
+}
+
+header nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+/* ==================== .container ====================== */
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+}
+.Box_Left{
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80") center / cover;
+}
+
+.Box_Right{
+    width: 96%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.boxright h4{
+    padding: 20px 0;
+}
+.boxright .textboxright h1{
+    padding: 5px 0;
+    font-size: 40px;
+}
+.boxright .textboxright p{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.boxright a{
+    color: #000;
+    text-decoration: none;
+}
+.boxright h5{
+    padding: 20px 0;
+}
+
+.Story_Box_2{
+    width: 70%;
+    margin: 0px 15%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.Tit_Box_2{
+    text-align: center;
+    width: 70%;
+    margin: 0px 15%;
+}
+
+.Tit_Box_2 h1{
+    font-size: 45px;
+    margin: 0px;
+}
+
+.Tit_Box_2 h1 span{
+    width: 10px;
+    height: 5px;
+    color: rgb(255, 166, 0);
+}
+
+.Content_Box_2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Fe_Name{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.Left_Block_Box_2{
+    flex-basis: 30%;margin-left: auto;
+}
+
+.Left_Block_Box_2 p{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.Center_Block_Box_2{
+    flex-basis: 30%;
+    margin-left: auto;
+}
+
+.Center_Block_Box_2 p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Center_Block_Box_2 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.Center_Block_Box_2 ul li{
+    margin-top: 15px;
+}
+
+.Center_Block_Box_2 ul li a{
+    font-weight: 700;
+    color: black;
+}  
+
+.Center_Block_Box_2 h4{
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.Center_Block_Box_2 h4 span{
+    color: coral;
+    font-size: 25px;
+}
+
+.Center_Block_Box_2 h4 a{
+    color: black;
+    text-decoration: none;
+}
+
+.Right_Block_Box_2{
+    flex-basis: 33%;
+    margin-left: auto;
+}
+
+.Right_Block_Box_2 img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+.End_Box_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.End_Box_2_Left{
+    flex-basis: 35%;
+    height: 450px;
+    background: url("https://i.pinimg.com/474x/25/58/3c/25583c364cbd9a1f053df78fad94e851.jpg") center / cover;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.Img_End{
+    top: 20%;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    border-radius: 20px;
+}
+
+.End_Box_2_Right{
+    margin-left: 25%;
+    flex-basis: 40%;
+
+}
+
+.End_Box_2_Right p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.End_Box_2_Right a{
+    color: black;
+    font-weight: 700;
+}
+
+.Box_3{
+    position: relative;
+    width: 70%;
+    margin: 0px 15%;
+    top: 500px;
+    height: 100vh;
+}
+
+.Box_3 span{
+    color: rgb(255, 208, 0);
+}
+
+
+.Box_grid{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.Row_Left{
+    margin: 0px auto;
+    flex-basis: 32%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Row_center{
+    flex-basis: 32%;
+    margin: 0px auto;
+}
+
+.Row_Right{
+    margin: 0px auto;
+    flex-basis: 32%;
+}
+
+.Block_Img_Left_1{
+    height: 380px;
+    background: url("https://i.pinimg.com/474x/5a/29/d2/5a29d2dce2be4533c2f8ff7ab2b763e3.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_2{
+    height: 380px;
+    background: url("https://i.pinimg.com/474x/6e/81/96/6e8196e4b555b6f52c44024cd905ca63.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_3{
+    height: 300px;
+    background: url("https://i.pinimg.com/474x/49/b2/7a/49b27ae7965994819529d5af329bd97f.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_4{
+    height: 340px;
+    background: url("https://i.pinimg.com/474x/f3/dd/5a/f3dd5a82458255bcfa988952d20c45dc.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_5{
+    height: 380px;
+    background: url("https://i.pinimg.com/474x/3f/3a/61/3f3a6110752366c5cf7c1d688d3c8706.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_6{
+    height: 380px;
+    background: url("https://i.pinimg.com/474x/c5/5a/1d/c55a1da14fe83dd7f6a1e6697816eda7.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_7{
+    height: 300px;
+    background: url("https://i.pinimg.com/474x/3d/a2/ed/3da2eda16216514aab723133e972428c.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+
+.Block_Img_Left_8{
+    height: 380px;
+    background: url("https://i.pinimg.com/474x/6a/bf/81/6abf814744624de33d986dcfa9c4b4c5.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+.Block_Img_Left_9{
+    height: 380px;
+    background: url("https://i.pinimg.com/474x/5e/7e/4a/5e7e4a77b6e3a04e15e4c0676838ef48.jpg") center / cover;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black , 0px 0px 25px black;
+}
+.Postes{
+    width: 100%;
+    background: rgb(115,115,115);
+    background: linear-gradient(90deg, rgba(115,115,115,1) 0%, rgba(50,50,50,1) 66%);   
+    text-align: center;
+    position: relative;
+    top: 1280px;
+    padding: 20px 0px;
+}
+
+.post_Box{
+    width: 60%;
+    margin: 0px 20%;
+    display: flex;
+}
+
+.Block_Post{
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px;
+    border: 2px solid rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Block_Post img{
+    width: 100%;
+    height: 200px;
+}
+
+.Block_Post {
+    color: white;
+}
+
+.Block_Post a{
+    color: white;
+}
+
+.Form_Foot{
+    width: 60%;
+    margin: 20px 20%;
+    position: relative;
+    top: 1320px;
+}
+
+.Form_Foot form{
+    width: 99%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.Form_Foot form label{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+
+}
+.Form_Foot form label input{
+    width: 50%;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    margin-left: 10px;
+}
+
+.Form_Foot form textarea{
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+
+.Form_Foot form button{
+    width: 200px;
+    margin: 20px 0px;
+    padding:20px 10px;
+    border: 0px;
+    background-color: rgb(255, 166, 0);
+}
+
+.Form_Foot form button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    background: rgb(115,115,115);
+    background: linear-gradient(90deg, rgba(115,115,115,1) 0%, rgba(50,50,50,1) 66%);  
+    position: relative;
+    top: 1400px;
+}
+.Footer_List{
+    width: 70%;
+    margin: 20px 15%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Footer_List div{
+    padding: 10px;
+    width: 25%;
+}
+.Footer_List div:nth-child(1) p{
+    font-size: 13px;
+
+}
+.Footer_List div:nth-child(2) ul{
+    margin: 0px ;
+    padding: 0px;
+    list-style: none;
+    line-height: 30px   ;
+}
+
+.Footer_List div:nth-child(2) ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Footer_List div:nth-child(3) ul{
+    list-style: none;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.Footer_List div:nth-child(3) ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.Span_foot{
+    width: 100%;
+    display: flex;
+}
+
+.Span_foot span{
+    width: 22%;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.Span_foot span a{
+    color: white;
+}
+
+@media (max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+    .Box_Left{
+        height: 50vh;
+        width: 100%;
+        background: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80") center / cover;
+    }
+}
+
+@media (max-width:900px){
+
+}
